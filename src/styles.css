@@ -1,0 +1,26 @@
+* {
+  margin: 0;
+  padding: 0;
+  font: bold 80pt arial;
+}
+
+div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+  cursor: none;
+}
+
+#fundo {
+  background-color: rgb(207, 207, 50);
+  color: rgb(29, 29, 29);
+}
+#frente {
+  background-color: rgb(29, 29, 29);
+  color: white;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
